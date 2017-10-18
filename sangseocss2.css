@@ -1,0 +1,56 @@
+﻿.post h2{margin:0 0 5px;border:none;}
+.post{background:#fff;border:1px solid #e5e5e5;margin:0 0 15px;padding:15px;color:#000;}
+.breadcrumbs{margin:0 0 15px}
+.post-thumbnail img{float:left;margin:0 15px 0 0;background:#fff;width:200px;height:150px;padding:0;border:none;box-shadow:none}
+/*Navigasi*/
+#blog-pager{text-align:center;padding:15px 0 0;margin:0;}
+#blog-pager-older-link a{float:right;width:auto;text-align:center;display:inline-block;color:#fff;text-transform:none;margin:0;padding:4px 8px;background:#5498C9;font-size:14px}
+#blog-pager-older-link a:hover, #blog-pager-home-link a:hover, #blog-pager-newer-link a:hover{background-color:#056b95;}
+#blog-pager-home-link a{width:auto;text-align:center;display:inline-block;color:#fff;text-transform:none;margin:0;padding:4px 8px;background:#5498C9;font-size:14px}
+#blog-pager-newer-link a{float:left;width:auto;text-align:center;display:inline-block;color:#fff;text-transform:none;margin:0;padding:4px 8px;background:#5498C9;font-size:14px}
+.post-info-icon{background-image:url(http://3.bp.blogspot.com/-Ejs4kT7A1cc/UkcGpzyrRzI/AAAAAAAAFpM/-BEQDsEw7kk/s1600/icnall.png);background-repeat:no-repeat;}
+.post-info{display:block;margin:10px 0;padding:3PX 0;color:#aaa;line-height:1.1em;border-top:1px dotted #e2e2e2;border-bottom:1px dotted #e2e2e2;font-size:14px;overflow:hidden;}
+.post-info a{color:#aaa;}
+.post-info-icon{display:inline-block;float:left;margin:0 12px 0 0;}
+.post-info a:hover{color:#000;}
+.jam{background-position:0 -98px;height:16px;padding:0 0 0 17px}
+.komentar{background-position:0 -132px;height:16px;padding:0 0 0 17px;}
+.label{background-position:0 -166px;height:16px;padding:0 0 0 17px;}
+.admin{background-position:0 1px;height:16px;padding:0 0 0 17px;}
+.tanggal{background-position:0 -32px;height:16px;padding:0 0 0 17px;}
+.pagenavi{clear:both;margin:15px 0 10px;text-align:center;font-weight:bold;color:#000!important;text-transform:uppercase}
+.pagenavi span,.pagenavi a{padding:5px 10px;margin-right:3px;display:inline-block;color:#000!important;background-color:#E7E5E6;border:2px solid #fff}
+.pagenavi .current{color:#000!important;border:1px solid #222}
+.pagenavi .current,.pagenavi .pages,.pagenavi a:hover{color:#000!important;border:1px solid #222}
+.pagenavi .pages {display:none}
+/*Post Left*/
+#post-right{float:right;width:48.8%;;margin:15px 0 0;padding:0}
+#post-left{float:left;width:48.8%;;margin:15px 0 0;padding:0}
+.post-left h2,.post-right h2{background:#106FE4;padding:10px;margin:0;color:#fff;text-transform:uppercase}
+.post-left,.post-right{color:#000;line-height:1.2em;padding:0;margin:15px 0 0}
+.post-left .widget-content,.post-right .widget-content{background:#fff;border:1px solid #e5e5e5;border-top:3px solid #4498FF;margin:0;padding:10px 15px 15px;overflow:hidden}
+.post-left ul,.post-right ul{list-style:none;margin:0;padding:0}
+.post-left li,.post-right li{margin:0;padding-top:10px;padding-right:0;padding-bottom:10px;border-bottom:1px solid #ddd;padding-left:0;line-height:1.5em}
+.post-left li:first-child,.post-right li:first-child{padding-top:0;}
+.post-left a,.post-right a{color:#222;text-decoration:none}
+.post-left a:hover,.post-right a:hover{color:#859ce6;text-decoration:none}
+/* Recent Post */
+img.rct-thumb{float:left;margin-right:10px;height:72px;width:72px;}
+.recent-by-tag{width:100%;margin:0;padding:0}
+ul.recent-by-tag li{padding:10px 0;margin-bottom:0;border-bottom:1px solid #ddd}
+ul.recent-by-tag li:first-child{padding:0;}
+.recent-by-tag li{font-size:13px;list-style:none;padding-left:0;margin:0;padding:0;overflow:hidden}
+.recent-by-tag a{font-family:&#39;Oswald&#39;,sans-serif;font-size:16px;font-weight:normal;margin:0;}
+.recent-by-tag strong{padding-left:0}
+span.showdates{font-size:16px;margin:10px 0 0}
+.recent-by-tag li:last-child {border-bottom:none;padding-bottom:0px;margin-bottom:0px;}
+@media screen and (max-width:768px){
+#post-left{float:none;width:100%}
+#post-right{float:none;width:100%}
+}
+@media screen and (max-width:384px) {
+.post{padding:10px;margin:0 0 10px}
+.post-info-icon{float:none}
+.post-thumbnail img{display:none}
+.pagenavi{clear:both;margin:15px 0 10px;text-align:center;font-weight:bold;color:#fff !important;text-transform:uppercase}
+.pagenavi span,.pagenavi a{padding:5px;}}
