@@ -1,0 +1,46 @@
+﻿/*Info Post*/
+.post{border:1px solid #e5e5e5;padding:15px;}
+.post-body img {max-width:90% !important;}
+.post-body a:focus,.post-body a:hover{color:#333;text-decoration:underline}
+.post-info{margin:15px 0;text-transform:uppercase}
+.info{overflow:hidden;padding:0;margin:0}
+.admin{float:left}
+.tanggal{float:right;font-weight:bold;color:#A2A2A2;border:none}
+.breadcrumbs{margin:0 0 15px}
+#labelnya{position:relative;font-size:14px;margin:15px 0;padding:0}
+/*Related Post*/
+.related-post{margin:0;padding:0}
+.related-post h4{margin:0 0 .5em;font-size:160%;}
+.rel-style-2{margin:0 0 0 0!important;padding:0 0 0 0!important;list-style:none}
+.rel-style-2 li{margin:0 0 0 0;padding:0 0 0 0}
+.rel-style-2 li{padding:5px 0!important;border-bottom:1px solid #e5e5e5;overflow:hidden}
+.rel-style-2 li:last-child{border-bottom:none}
+.rel-style-2 .rel-thumb{width:70px;height:70px;max-width:none;max-height:none;background-color:transparent;border:none;padding:0;float:left;margin:2px 8px 0 0}
+.rel-style-2 .related-post-item-title{font-family:&#39;Oswald&#39;,sans-serif;font-size:17px;}
+.rel-style-2 .related-post-item-summary{display:block;overflow:hidden}
+/*Nav Rel*/
+#nav-related{border:1px solid #e5e5e5;margin:15px 0;padding:15px}
+/*Blog Pager*/
+#blog-pager{background-color:#d6e5c1;border-bottom:1px solid #e5e5e5;margin:-15px -15px 15px;padding:10px 15px}
+#blog-pager-newer-link{float:left;width:50%;text-align:left;margin:0;padding:0}
+#blog-pager-older-link{float:right;width:50%;text-align:right;margin:0;padding:0}
+#blog-pager-older-link h6{margin:0;padding:0;text-align:right;font-family:&#39;Roboto&#39;,sans-serif;font-size:14px;color:#444444;text-transform:uppercase;line-height:1.625;font-weight:700}
+#blog-pager-newer-link h6{margin:0;padding:0;text-align:left;font-family:&#39;Roboto&#39;,sans-serif;font-size:14px;color:#444444;text-transform:uppercase;line-height:1.625;font-weight:700}
+@media screen and (max-width:980px){
+}
+@media screen and (max-width:800px){
+}
+@media screen and (max-width:768px){
+}
+@media screen and (max-width:600px){
+}
+@media screen and (max-width:568px){
+.rel-style-2 .rel-thumb{display:none}
+.rel-style-2 .related-post-item-summary{display:none}
+}
+@media screen and (max-width:384px) {
+.post{padding:10px;}
+.post-info{margin:10px 0;}
+.breadcrumbs{padding:5px 10px;margin:0 0 10px}
+.admin,.tanggal{float:none}
+#related-post{margin:10px 0 0;padding:10px}}
